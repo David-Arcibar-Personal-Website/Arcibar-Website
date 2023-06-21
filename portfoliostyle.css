@@ -1,0 +1,49 @@
+body {
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    color: whitesmoke;
+    font-size: xx-large;
+   
+}
+.nav{
+    display: flex;
+    justify-content: right;
+}
+
+.nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px;
+}
+  
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    padding: 50px;
+    margin: 0 20px 20px;
+    height: calc(100vh - 60px);
+    box-sizing: border-box;
+    overflow: auto;
+    border: 10px solid green;
+
+}
+
+img{
+   
+        float: right;
+        margin: 0 24px 24px 0;
+        height: 128px;
+}
