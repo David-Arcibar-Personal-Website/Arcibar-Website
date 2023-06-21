@@ -1,0 +1,30 @@
+body {
+    background-color: skyblue;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    color: whitesmoke;
+    font-size: x-large;
+   
+}
+
+
+.nav{
+    display: flex;
+    justify-content: right;
+   
+    
+}
+
+.nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px;
+}
+    
+    
