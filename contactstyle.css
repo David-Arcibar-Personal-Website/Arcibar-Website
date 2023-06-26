@@ -40,16 +40,3 @@ main{
     border: 10px solid green;
 
 }
-
-.identity {
-    color: white;
-    width: 100%;
-}
-
-.quote{
-    font-style: italic;
-    font-size: 25px;
-    text-align: center;
-    width: 100%;
-    margin-top: 100px;
-}

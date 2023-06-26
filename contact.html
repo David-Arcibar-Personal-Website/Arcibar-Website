@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="contactstyle.css">
+    <title>Contacts</title>
+</head>
+<body>
+        <header>
+            <span class="name">
+                David Arcibar
+            </span>
+
+            <nav class="nav">
+               
+                <a href="index.html"> Home</a>
+                <a href="about.html"> About</a>
+                <a href="portfolio.html"> Portfolio</a>
+                <a href="contact.html"> Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Contact Form</h2>
+
+                <form action="submit.html" method="get">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" name="submit" id="submit" value="submit">
+                </form> 
+
+        </main>
+</body>
+</html>
