@@ -1,7 +1,7 @@
 body {
     background-color: skyblue;
-    margin: 0;
-    padding: 0;
+    margin: 0em;
+    padding: 0em;
     box-sizing: border-box;
 
 }
@@ -23,7 +23,7 @@ header {
 .nav a{
     color: whitesmoke;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 1em;
 }
   
 
@@ -32,8 +32,8 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: coral;
-    padding: 50px;
-    margin: 0 20px 20px;
+    padding: 2em;
+    margin: 0em 2em 0em 2em;
     height: calc(100vh - 60px);
     box-sizing: border-box;
     overflow: auto;
@@ -41,9 +41,11 @@ main{
 
 }
 
-img{
-   
-        float: right;
-        margin: 0 24px 24px 0;
-        height: 128px;
+img{    
+    float: right;
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+    margin-right: 0%;
+    margin-left: 0%;
 }
