@@ -71,3 +71,8 @@ img{
     margin-right: 0%;
     margin-left: 0%;
 }
+
+.contactstyle{
+    display: flex;
+    justify-content: center;
+}

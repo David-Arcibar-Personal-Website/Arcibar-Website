@@ -1,0 +1,42 @@
+body {
+    background-color: skyblue;
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    color: whitesmoke;
+    font-size: xx-large;
+   
+}
+.nav{
+    display: flex;
+    justify-content: right;
+}
+
+.nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 1em;
+}
+  
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    padding: 2em;
+    margin: 0em 2em 0em 2em;
+    height: calc(100vh - 60px);
+    box-sizing: border-box;
+    overflow: auto;
+    border: 10px solid green;
+
+}
